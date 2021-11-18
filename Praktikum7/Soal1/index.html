@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE-edge">
+        <meta name="author" content="Alvin Rahmatilasyah 2172016">
+        <title>index</title>
+    </head>
+    <body>
+        <script>
+            let a= prompt("Berapa mawar yang ingin dibeli? (Rp 5000)")
+            let b= prompt("Berapa tulip yang ingin dibeli? (Rp 8000)")
+            let c= prompt("Berapa anggrek yang ingin dibeli? (Rp 10000)")
+            let d= prompt("Uang yang dibayarkan adalah")
+            let e= a*5000;
+            let f= b*8000;
+            let g= c*10000;
+            let h= e+f+g;
+            let j= d-h;
+            document.write("Anda membeli mawar sebanyak <b>" + a + " bunga </b> dengan harga total Rp." + e + "<br>")
+            document.write("Anda membeli tulip  sebanyak <b>" + b + " bunga </b> dengan harga total Rp." + f + "<br>")
+            document.write("Anda membeli anggrek sebanyak <b>" + c + " bunga </b> dengan harga total Rp." + g + "<br>")
+            document.write("Total belanjaan anda <b> Rp." + h + "</b> <br><br>") 
+            if (d>h) {
+                document.write("Kembalian anda adalah Rp." + j)
+            }
+            else {
+                document.write("Uang anda tidak mencukupi")
+            }
+        </script>
+    </body>
+
+</html>
